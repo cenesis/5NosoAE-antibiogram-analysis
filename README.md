@@ -107,14 +107,3 @@ perl scripts/09_parse_pattern_occurrence.pl
 Rscript scripts/10_heatmap_co-occurrence_pattern.R
 ```
 
----
-
-## Citation
-
-If you use the 5NosoAE pipeline or associated resources, please cite:
-
-Chen, C.-C., Liu, Y.-Y., Yang, Y.-C., & Hsu, C.-Y. (2022).  
-5NosoAE: a web server for nosocomial bacterial antibiogram investigation and epidemiological survey.  
-*Nucleic Acids Research*, 50(W1), W21–W28.  
-https://doi.org/10.1093/nar/gkac423
-
