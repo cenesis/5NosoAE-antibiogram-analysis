@@ -93,6 +93,7 @@ Rscript scripts/08_heatmap_all_species_pattern.R
 
 ---
 
+<<<<<<< HEAD
 ### Step 7. Statistical analysis & visualization
 
 | Analysis                      | Script                              |
@@ -129,3 +130,13 @@ Rscript scripts/08_heatmap_all_species_pattern.R
 
 If you use this pipeline, please cite our study.
 
+=======
+## Citation
+
+If you use the 5NosoAE pipeline or associated resources, please cite:
+
+Chen, C.-C., Liu, Y.-Y., Yang, Y.-C., & Hsu, C.-Y. (2022).  
+5NosoAE: a web server for nosocomial bacterial antibiogram investigation and epidemiological survey.  
+*Nucleic Acids Research*, 50(W1), W21–W28.  
+https://doi.org/10.1093/nar/gkac423
+>>>>>>> 60d3780 (update README.md)
