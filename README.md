@@ -101,7 +101,7 @@ Rscript scripts/08_heatmap_all_species_pattern.R
 perl scripts/09_parse_pattern_occurrence.pl
 ```
 
-* Generate heatmaps
+* Generate heatmap
 
 ```bash
 Rscript scripts/10_heatmap_co-occurrence_pattern.R
