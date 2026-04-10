@@ -93,44 +93,6 @@ Rscript scripts/08_heatmap_all_species_pattern.R
 
 ---
 
-<<<<<<< HEAD
-### Step 7. Statistical analysis & visualization
-
-| Analysis                      | Script                              |
-| ----------------------------- | ----------------------------------- |
-| Heatmaps (counts & frequency) | 06_heatmap_count_c100.R             |
-|                               | 07_heatmap_frequency_c100.R         |
-| Resistance fingerprints       | 03_resistance_profile.R             |
-| Venn analysis                 | 05_venn_analysis.R                  |
-| Cross-species analysis        | 06_cross_species_analysis.R         |
-| Temporal & regional analysis  | 07_temporal_geographical_analysis.R |
-| Global maps                   | 08_visualization_maps.R             |
-
----
-
-## Outputs
-
-### Tables
-
-* Table 1: Distribution of isolates and antibiogram patterns
-
-### Figures
-
-* Figure 1: Global distribution maps
-* Figure 2–3: Heatmaps of antibiotic counts and frequencies
-* Figure 4: Resistance fingerprint heatmap and frequency
-* Figure 5: Venn diagram of resistance profiles
-* Figure 6: Cross-species resistance heatmap
-* Figure 7: Temporal and regional distribution
-* Figure 8: Global distribution of cross-species resistance
-
----
-
-## Citation
-
-If you use this pipeline, please cite our study.
-
-=======
 ## Citation
 
 If you use the 5NosoAE pipeline or associated resources, please cite:
@@ -139,4 +101,4 @@ Chen, C.-C., Liu, Y.-Y., Yang, Y.-C., & Hsu, C.-Y. (2022).
 5NosoAE: a web server for nosocomial bacterial antibiogram investigation and epidemiological survey.  
 *Nucleic Acids Research*, 50(W1), W21–W28.  
 https://doi.org/10.1093/nar/gkac423
->>>>>>> 60d3780 (update README.md)
+
