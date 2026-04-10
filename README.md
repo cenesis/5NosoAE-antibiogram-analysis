@@ -25,7 +25,7 @@ The pipeline integrates genomic metadata, antibiotic resistance profiles, and gl
 
 ### Step 1. Resistance fingerprint construction
 
-* Generate antibiogram matrix (isolate × (antibiotics + species))
+* Generate antibiogram matrix (isolate × (antibiotics + Species))
 
 ```bash
 perl scripts/01_fingerprint_construction.pl > data/processed/c_100.tsv
@@ -35,7 +35,7 @@ perl scripts/01_fingerprint_construction.pl > data/processed/c_100.tsv
 
 ### Step 2. Resistance fingerprint classification
 
-* Add fingerprint class number (isolate × (antibiotics + class_number))
+* Add fingerprint class number (isolate × (antibiotics + Species + Class_ID))
 
 ```bash
 perl scripts/02_fingerprint_classification.pl > data/processed/c_100_cluster.tsv
