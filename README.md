@@ -93,6 +93,22 @@ Rscript scripts/08_heatmap_all_species_pattern.R
 
 ---
 
+### Step 7. Heatmap and frequency distribution of co-occurrence antibiotic resistance fingerprints
+
+* Parse the frequency distribution of antibiotic resistance fingerprints across the five major nosocomial pathogens
+
+```bash
+perl scripts/09_parse_pattern_occurrence.pl
+```
+
+* Generate heatmaps
+
+```bash
+Rscript scripts/10_heatmap_co-occurrence_pattern.R
+```
+
+---
+
 ## Citation
 
 If you use the 5NosoAE pipeline or associated resources, please cite:
