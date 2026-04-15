@@ -16,7 +16,7 @@ The pipeline integrates genomic metadata, antibiotic resistance profiles, and gl
 
 ## Input Data
 
-* `All.assembly_SRA_species.tsv`: species annotation
+* `All.assembly_SRA_species.tsv`: antibiotic resistance profiles
 * `All.assembly_SRA.biosample`: metadata including geographic and temporal information
 
 ---
