@@ -1,0 +1,7 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(6)-Id	100.00	837/837	100.0	1..837	JPHJ01000006.1 Vibrio cholerae strain InDRE 3140 chromosome I chrI_contig00006, whole genome shotgun sequence	562..1398	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aph(3'')-Ib	99.75	804/804	99.87562189054727	1..804	JPHJ01000006.1 Vibrio cholerae strain InDRE 3140 chromosome I chrI_contig00006, whole genome shotgun sequence	1398..2200	Aminoglycoside resistance Alternate name; aph(3'')-Ib	AF321551
+floR	98.35	1214/1215	99.91769547325103	1..1214	JPHJ01000005.1 Vibrio cholerae strain InDRE 3140 chromosome I chrI_contig00005, whole genome shotgun sequence	2481..3694	Phenicol resistance	AF118107
+catB9	100.00	630/630	100.0	1..630	JPHJ01000078.1 Vibrio cholerae strain InDRE 3140 chromosome II chrII_contig00004, whole genome shotgun sequence	8994..9623	Phenicol resistance	AF462019
+sul2	100.00	816/816	100.0	1..816	JPHJ01000006.1 Vibrio cholerae strain InDRE 3140 chromosome I chrI_contig00006, whole genome shotgun sequence	2261..3076	Sulphonamide resistance	AY034138
+dfrA1	99.58	473/474	99.36708860759494	1..473	JPHJ01000009.1 Vibrio cholerae strain InDRE 3140 chromosome I chrI_contig00009, whole genome shotgun sequence	46584..47054	Trimethoprim resistance	X00926
