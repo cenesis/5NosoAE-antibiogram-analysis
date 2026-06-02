@@ -16,12 +16,23 @@ The pipeline integrates genomic metadata, antibiotic resistance profiles, and gl
 
 ## Input Data
 
+* `GCA_000740515.1.fna`: example assembly
 * `All.assembly_SRA_species.tsv`: antibiotic resistance profiles
 * `All.assembly_SRA.biosample`: metadata including geographic and temporal information
 
 ---
 
 ## Workflow
+
+### Step 0. Antibiogram generation
+
+* Predict antibiotic resistance genes and generate an antibiogram profile from a genome assembly
+
+```bash
+perl scripts/00_antibiogram_generator.pl -i data/example_assembly/GCA_000740515.1.fna -o data/example_antibiogram
+```
+
+---
 
 ### Step 1. Resistance fingerprint construction
 
