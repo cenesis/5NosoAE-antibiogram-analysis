@@ -24,7 +24,7 @@ The pipeline integrates genomic metadata, antibiotic resistance profiles, and gl
 
 ## Workflow
 
-### Step 0. Antibiogram generation
+### Step 1. Antibiogram generation
 
 * Predict antibiotic resistance genes and generate an antibiogram profile from a genome assembly
 
@@ -34,7 +34,7 @@ perl scripts/00_antibiogram_generator.pl -i data/example_assembly/GCA_000740515.
 
 ---
 
-### Step 1. Resistance fingerprint construction
+### Step 2. Resistance fingerprint construction
 
 * Generate antibiogram matrix (isolate × (antibiotics + Species))
 
@@ -44,7 +44,7 @@ perl scripts/01_fingerprint_construction.pl > data/processed/c_100.tsv
 
 ---
 
-### Step 2. Resistance fingerprint classification
+### Step 3. Resistance fingerprint classification
 
 * Add fingerprint class number (isolate × (antibiotics + Species + Class_ID))
 
@@ -54,7 +54,7 @@ perl scripts/02_fingerprint_classification.pl > data/processed/c_100_cluster.tsv
 
 ---
 
-### Step 3. Statistical analysis (Resistance fingerprint patterns)
+### Step 4. Statistical analysis (Resistance fingerprint patterns)
 
 * Compute the number of resistance patterns for each species, as well as the total number of unique resistance patterns after removing duplicates across all species
 
@@ -64,7 +64,7 @@ bash scripts/03_statistical_analysis.sh
 
 ---
 
-### Step 4. Statistical analysis (Co-occurrence fingerprint patterns)
+### Step 5. Statistical analysis (Co-occurrence fingerprint patterns)
 
 * Compute, for each species, the number of co-occurring resistance patterns and the number of isolates that exhibit these patterns
 
@@ -74,7 +74,7 @@ bash scripts/04_statistical_analysis_co-occurrence.sh
 
 ---
 
-### Step 5. Statistical analysis & visualization of antibiotic frequency
+### Step 6. Statistical analysis & visualization of antibiotic frequency
 
 * Compute the frequency of resistance to each antibiotic across different species
 
@@ -94,7 +94,7 @@ Rscript scripts/07_heatmap_frequency_c100.R
 
 ---
 
-### Step 6. Heatmap and frequency distribution of antibiotic resistance fingerprints
+### Step 7. Heatmap and frequency distribution of antibiotic resistance fingerprints
 
 * Visualize the heatmap and frequency distribution of antibiotic resistance fingerprints across the five major nosocomial pathogens
 
@@ -104,7 +104,7 @@ Rscript scripts/08_heatmap_all_species_pattern.R
 
 ---
 
-### Step 7. Heatmap and frequency distribution of co-occurrence antibiotic resistance fingerprints
+### Step 8. Heatmap and frequency distribution of co-occurrence antibiotic resistance fingerprints
 
 * Parse the frequency distribution of antibiotic resistance fingerprints across the five major nosocomial pathogens
 
