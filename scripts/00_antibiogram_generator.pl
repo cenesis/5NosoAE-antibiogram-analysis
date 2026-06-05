@@ -60,7 +60,7 @@ die "\nError in opening contig file $inPath\n\n" if(!-e $inPath);
 
 mkdir("$outPath", 0755) || die "$!" if(!-e "$outPath");
 
-system("/usr/bin/python3 $resfinderProgramPath/run_resfinder.py -ifa $inPath -db_res $resfinderDBPath -l 0.4 -t 0.4 -o $outPath --acquired");
+system("/usr/bin/python3 $resfinderProgramPath/run_resfinder.py -ifa $inPath -db_res $resfinderDBPath -l $aligcov_cut -t $pident_cut -o $outPath --acquired");
 
 
 ##### Parse Phenotype #####
